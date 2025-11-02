@@ -11,7 +11,7 @@ android {
         commandLine = "git rev-parse --short HEAD".split(" ")
     }.standardOutput.asText.get().trim()
 
-    namespace = "z.gnstc.uwv"
+    namespace = "com.aistra.hail"
     compileSdk = 35
 
     defaultConfig {
@@ -19,7 +19,7 @@ android {
         minSdk = 23
         targetSdk = 35
         versionCode = 33
-        versionName = "1.2.1"
+        versionName = "1.9.0"
     }
 
     buildTypes {

@@ -1,4 +1,4 @@
-package com.aistra.hail
+package z.gnstc.uwv
 
 import android.app.Application
 import android.app.UiModeManager
@@ -8,11 +8,11 @@ import android.content.pm.PackageManager
 import androidx.appcompat.app.AppCompatDelegate
 import androidx.core.content.ContextCompat
 import androidx.core.content.getSystemService
-import com.aistra.hail.app.AppManager
-import com.aistra.hail.app.HailData
-import com.aistra.hail.services.AutoFreezeService
-import com.aistra.hail.utils.HDhizuku
-import com.aistra.hail.utils.HTarget
+import z.gnstc.uwv.app.AppManager
+import z.gnstc.uwv.app.HailData
+import z.gnstc.uwv.services.AutoFreezeService
+import z.gnstc.uwv.utils.HDhizuku
+import z.gnstc.uwv.utils.HTarget
 
 class HailApp : Application() {
     override fun onCreate() {

@@ -1,4 +1,4 @@
-package com.aistra.hail.utils
+package z.gnstc.uwv.utils
 
 import android.app.ActivityManager
 import android.app.AppOpsManager
@@ -7,7 +7,7 @@ import android.content.pm.PackageManager
 import android.os.Build
 import androidx.annotation.RequiresApi
 import androidx.core.content.getSystemService
-import com.aistra.hail.HailApp.Companion.app
+import z.gnstc.uwv.HailApp.Companion.app
 import org.lsposed.hiddenapibypass.HiddenApiBypass
 
 object HPackages {

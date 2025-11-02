@@ -1,4 +1,4 @@
-package com.aistra.hail.utils
+package z.gnstc.uwv.utils
 
 import android.app.Activity
 import android.app.PendingIntent
@@ -12,7 +12,7 @@ import android.os.Handler
 import android.os.HandlerThread
 import androidx.core.content.ContextCompat
 import androidx.core.content.getSystemService
-import com.aistra.hail.HailApp.Companion.app
+import z.gnstc.uwv.HailApp.Companion.app
 import kotlinx.coroutines.CompletableDeferred
 import kotlinx.coroutines.runBlocking
 import kotlinx.coroutines.withTimeout

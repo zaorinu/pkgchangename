@@ -11,7 +11,7 @@ android {
         commandLine = "git rev-parse --short HEAD".split(" ")
     }.standardOutput.asText.get().trim()
 
-    namespace = "com.aistra.hail"
+    namespace = "z.gnstc.uwv"
     compileSdk = 35
 
     defaultConfig {

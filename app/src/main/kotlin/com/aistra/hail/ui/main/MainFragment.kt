@@ -1,4 +1,4 @@
-package com.aistra.hail.ui.main
+package z.gnstc.uwv.ui.main
 
 import androidx.fragment.app.Fragment
 

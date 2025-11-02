@@ -1,4 +1,4 @@
-package com.aistra.hail.ui.settings
+package z.gnstc.uwv.ui.settings
 
 import android.content.Intent
 import android.content.pm.PackageManager
@@ -32,16 +32,16 @@ import androidx.core.view.MenuHost
 import androidx.core.view.MenuProvider
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.lifecycleScope
-import com.aistra.hail.HailApp.Companion.app
-import com.aistra.hail.R
-import com.aistra.hail.app.AppManager
-import com.aistra.hail.app.HailApi
-import com.aistra.hail.app.HailData
-import com.aistra.hail.databinding.DialogInputBinding
-import com.aistra.hail.ui.main.MainActivity
-import com.aistra.hail.ui.main.MainFragment
-import com.aistra.hail.ui.theme.AppTheme
-import com.aistra.hail.utils.*
+import z.gnstc.uwv.HailApp.Companion.app
+import z.gnstc.uwv.R
+import z.gnstc.uwv.app.AppManager
+import z.gnstc.uwv.app.HailApi
+import z.gnstc.uwv.app.HailData
+import z.gnstc.uwv.databinding.DialogInputBinding
+import z.gnstc.uwv.ui.main.MainActivity
+import z.gnstc.uwv.ui.main.MainFragment
+import z.gnstc.uwv.ui.theme.AppTheme
+import z.gnstc.uwv.utils.*
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import com.google.android.material.textview.MaterialTextView
 import com.rosan.dhizuku.api.Dhizuku

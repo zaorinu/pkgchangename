@@ -1,14 +1,14 @@
-package com.aistra.hail.ui.apps
+package z.gnstc.uwv.ui.apps
 
 import android.app.Application
 import android.content.pm.ApplicationInfo
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.viewModelScope
-import com.aistra.hail.HailApp
-import com.aistra.hail.app.AppManager
-import com.aistra.hail.app.HailData
-import com.aistra.hail.utils.*
+import z.gnstc.uwv.HailApp
+import z.gnstc.uwv.app.AppManager
+import z.gnstc.uwv.app.HailData
+import z.gnstc.uwv.utils.*
 import kotlinx.coroutines.*
 
 class AppsViewModel(application: Application) : AndroidViewModel(application) {

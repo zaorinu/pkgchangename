@@ -1,4 +1,4 @@
-package com.aistra.hail.ui.about
+package z.gnstc.uwv.ui.about
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -27,13 +27,13 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.*
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.aistra.hail.HailApp.Companion.app
-import com.aistra.hail.R
-import com.aistra.hail.app.HailData
-import com.aistra.hail.ui.main.MainFragment
-import com.aistra.hail.ui.theme.AppTheme
-import com.aistra.hail.utils.HPackages
-import com.aistra.hail.utils.HUI
+import z.gnstc.uwv.HailApp.Companion.app
+import z.gnstc.uwv.R
+import z.gnstc.uwv.app.HailData
+import z.gnstc.uwv.ui.main.MainFragment
+import z.gnstc.uwv.ui.theme.AppTheme
+import z.gnstc.uwv.utils.HPackages
+import z.gnstc.uwv.utils.HUI
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import com.google.android.material.imageview.ShapeableImageView
 import java.text.SimpleDateFormat

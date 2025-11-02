@@ -1,11 +1,11 @@
-package com.aistra.hail.receiver
+package z.gnstc.uwv.receiver
 
 import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
-import com.aistra.hail.HailApp.Companion.app
-import com.aistra.hail.utils.HShizuku.setAppRestricted
-import com.aistra.hail.utils.HTarget
+import z.gnstc.uwv.HailApp.Companion.app
+import z.gnstc.uwv.utils.HShizuku.setAppRestricted
+import z.gnstc.uwv.utils.HTarget
 
 class UnsuspendedReceiver : BroadcastReceiver() {
     override fun onReceive(context: Context, intent: Intent) {

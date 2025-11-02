@@ -1,12 +1,12 @@
-package com.aistra.hail.utils
+package z.gnstc.uwv.utils
 
 import android.app.PendingIntent
 import android.app.admin.DevicePolicyManager
 import android.content.ComponentName
 import android.content.Intent
 import androidx.core.content.getSystemService
-import com.aistra.hail.HailApp.Companion.app
-import com.aistra.hail.receiver.DeviceAdminReceiver
+import z.gnstc.uwv.HailApp.Companion.app
+import z.gnstc.uwv.receiver.DeviceAdminReceiver
 
 object HPolicy {
     private val dpm = app.getSystemService<DevicePolicyManager>()!!

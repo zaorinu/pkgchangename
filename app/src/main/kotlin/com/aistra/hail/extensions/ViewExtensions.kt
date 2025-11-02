@@ -1,4 +1,4 @@
-package com.aistra.hail.extensions
+package z.gnstc.uwv.extensions
 
 import android.view.View
 

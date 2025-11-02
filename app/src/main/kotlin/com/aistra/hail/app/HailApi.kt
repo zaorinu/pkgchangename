@@ -1,7 +1,7 @@
-package com.aistra.hail.app
+package z.gnstc.uwv.app
 
 import android.content.Intent
-import com.aistra.hail.BuildConfig
+import z.gnstc.uwv.BuildConfig
 
 object HailApi {
     /** @since 0.5.0 */

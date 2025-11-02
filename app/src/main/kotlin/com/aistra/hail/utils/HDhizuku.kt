@@ -1,4 +1,4 @@
-package com.aistra.hail.utils
+package z.gnstc.uwv.utils
 
 import android.annotation.SuppressLint
 import android.app.PendingIntent
@@ -9,7 +9,7 @@ import android.os.Build
 import android.os.IBinder
 import androidx.annotation.RequiresApi
 import androidx.core.content.getSystemService
-import com.aistra.hail.HailApp.Companion.app
+import z.gnstc.uwv.HailApp.Companion.app
 import com.rosan.dhizuku.api.Dhizuku
 import com.rosan.dhizuku.shared.DhizukuVariables
 import org.lsposed.hiddenapibypass.HiddenApiBypass

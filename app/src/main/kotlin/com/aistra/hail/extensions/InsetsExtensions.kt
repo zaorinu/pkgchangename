@@ -1,7 +1,7 @@
-package com.aistra.hail.extensions
+package z.gnstc.uwv.extensions
 
 import android.view.View
-import com.aistra.hail.utils.HUI.INSETS_TYPE_DEFAULT
+import z.gnstc.uwv.utils.HUI.INSETS_TYPE_DEFAULT
 import dev.chrisbanes.insetter.InsetterApplyTypeDsl
 import dev.chrisbanes.insetter.InsetterDsl
 import dev.chrisbanes.insetter.applyInsetter

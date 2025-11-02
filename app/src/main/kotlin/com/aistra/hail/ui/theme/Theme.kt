@@ -1,10 +1,10 @@
-package com.aistra.hail.ui.theme
+package z.gnstc.uwv.ui.theme
 
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material3.*
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.platform.LocalContext
-import com.aistra.hail.utils.HTarget
+import z.gnstc.uwv.utils.HTarget
 
 private val lightScheme = lightColorScheme(
     primary = primaryLight,

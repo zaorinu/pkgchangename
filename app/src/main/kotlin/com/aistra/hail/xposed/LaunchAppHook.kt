@@ -1,4 +1,4 @@
-package com.aistra.hail.xposed
+package z.gnstc.uwv.xposed
 
 import android.app.Activity
 import android.content.Context
@@ -6,10 +6,10 @@ import android.content.ContextWrapper
 import android.content.Intent
 import android.os.Bundle
 import android.service.quicksettings.TileService
-import com.aistra.hail.app.HailApi
-import com.aistra.hail.ui.api.ApiActivity
-import com.aistra.hail.utils.HTarget
-import com.aistra.hail.xposed.XposedInterface.BaseHook
+import z.gnstc.uwv.app.HailApi
+import z.gnstc.uwv.ui.api.ApiActivity
+import z.gnstc.uwv.utils.HTarget
+import z.gnstc.uwv.xposed.XposedInterface.BaseHook
 import de.robv.android.xposed.XC_MethodHook
 import de.robv.android.xposed.XposedHelpers
 import java.lang.reflect.Method

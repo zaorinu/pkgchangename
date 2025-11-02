@@ -1,4 +1,4 @@
-package com.aistra.hail.views
+package z.gnstc.uwv.views
 
 import android.content.Context
 import android.util.AttributeSet

@@ -1,8 +1,8 @@
-package com.aistra.hail.app
+package z.gnstc.uwv.app
 
 import android.content.pm.ApplicationInfo
-import com.aistra.hail.HailApp.Companion.app
-import com.aistra.hail.utils.HPackages
+import z.gnstc.uwv.HailApp.Companion.app
+import z.gnstc.uwv.utils.HPackages
 
 class AppInfo(
     val packageName: String,

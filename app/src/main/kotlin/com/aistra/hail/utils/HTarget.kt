@@ -1,4 +1,4 @@
-package com.aistra.hail.utils
+package z.gnstc.uwv.utils
 
 import android.os.Build
 import androidx.annotation.ChecksSdkIntAtLeast

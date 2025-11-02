@@ -1,10 +1,10 @@
-package com.aistra.hail.work
+package z.gnstc.uwv.work
 
 import android.content.Context
 import androidx.work.Worker
 import androidx.work.WorkerParameters
-import com.aistra.hail.app.AppManager
-import com.aistra.hail.app.HailData
+import z.gnstc.uwv.app.AppManager
+import z.gnstc.uwv.app.HailData
 
 class FrozenWorker(context: Context, params: WorkerParameters) : Worker(context, params) {
     override fun doWork(): Result {

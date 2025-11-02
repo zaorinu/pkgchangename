@@ -1,4 +1,4 @@
-package com.aistra.hail.utils
+package z.gnstc.uwv.utils
 
 import net.sourceforge.pinyin4j.PinyinHelper
 import java.util.Locale

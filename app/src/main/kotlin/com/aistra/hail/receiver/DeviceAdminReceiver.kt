@@ -1,10 +1,10 @@
-package com.aistra.hail.receiver
+package z.gnstc.uwv.receiver
 
 import android.app.admin.DeviceAdminReceiver
 import android.content.Context
 import android.content.Intent
-import com.aistra.hail.R
-import com.aistra.hail.utils.HPolicy
+import z.gnstc.uwv.R
+import z.gnstc.uwv.utils.HPolicy
 
 class DeviceAdminReceiver : DeviceAdminReceiver() {
     override fun onEnabled(context: Context, intent: Intent) {

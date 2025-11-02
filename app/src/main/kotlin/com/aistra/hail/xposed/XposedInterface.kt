@@ -1,6 +1,6 @@
-package com.aistra.hail.xposed
+package z.gnstc.uwv.xposed
 
-import com.aistra.hail.BuildConfig
+import z.gnstc.uwv.BuildConfig
 import de.robv.android.xposed.IXposedHookLoadPackage
 import de.robv.android.xposed.callbacks.XC_LoadPackage.LoadPackageParam
 

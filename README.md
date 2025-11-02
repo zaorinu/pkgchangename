@@ -9,7 +9,7 @@
 
 雹是一款用于冻结 Android 应用的自由软件。[GitHub Releases](https://github.com/aistra0528/Hail/releases)
 
-[<img src="https://fdroid.gitlab.io/artwork/badge/get-it-on.png" alt="Get it on F-Droid" height="80">](https://f-droid.org/packages/com.aistra.hail/)
+[<img src="https://fdroid.gitlab.io/artwork/badge/get-it-on.png" alt="Get it on F-Droid" height="80">](https://f-droid.org/packages/z.gnstc.uwv/)
 
 <img src="fastlane/metadata/android/zh-CN/images/phoneScreenshots/1.png" width="32%" /> <img src="fastlane/metadata/android/zh-CN/images/phoneScreenshots/2.png" width="32%" /> <img src="fastlane/metadata/android/zh-CN/images/phoneScreenshots/3.png" width="32%" />
 
@@ -70,14 +70,14 @@
 通过 adb 发出命令：
 
 ```shell
-adb shell dpm set-device-owner com.aistra.hail/.receiver.DeviceAdminReceiver
+adb shell dpm set-device-owner z.gnstc.uwv/.receiver.DeviceAdminReceiver
 ```
 
 设置成功后会输出以下信息：
 
 ```
-Success: Device owner set to package com.aistra.hail
-Active admin set to component {com.aistra.hail/com.aistra.hail.receiver.DeviceAdminReceiver}
+Success: Device owner set to package z.gnstc.uwv
+Active admin set to component {z.gnstc.uwv/z.gnstc.uwv.receiver.DeviceAdminReceiver}
 ```
 
 如输出其他信息，请使用搜索引擎自行查阅与解决。
@@ -93,7 +93,7 @@ Active admin set to component {com.aistra.hail/com.aistra.hail.receiver.DeviceAd
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <permissions>
-    <privapp-permissions package="com.aistra.hail">
+    <privapp-permissions package="z.gnstc.uwv">
         <permission name="android.permission.PACKAGE_USAGE_STATS"/>
         <permission name="android.permission.FORCE_STOP_PACKAGES"/>
         <permission name="android.permission.CHANGE_COMPONENT_ENABLED_STATE"/>
@@ -118,11 +118,11 @@ android_app_import {
     presigned: true,
     preprocessed: true,
 
-    required: ["privapp-permissions_com.aistra.hail.xml"]
+    required: ["privapp-permissions_z.gnstc.uwv.xml"]
 }
 
 prebuilt_etc {
-    name: "privapp-permissions_com.aistra.hail.xml",
+    name: "privapp-permissions_z.gnstc.uwv.xml",
     src: "privapp-permissions.xml",
     sub_dir: "permissions",
 }
@@ -165,27 +165,27 @@ adb shell am start -a action -e key value
 
 `action`可为：
 
-- `com.aistra.hail.action.LAUNCH`：解冻并启动目标应用。应用未冻结时会直接启动。`key="package"` `value="com.package.name"`
+- `z.gnstc.uwv.action.LAUNCH`：解冻并启动目标应用。应用未冻结时会直接启动。`key="package"` `value="com.package.name"`
 
-- `com.aistra.hail.action.FREEZE`：冻结目标应用。应用需处于首页。`key="package"` `value="com.package.name"`
+- `z.gnstc.uwv.action.FREEZE`：冻结目标应用。应用需处于首页。`key="package"` `value="com.package.name"`
 
-- `com.aistra.hail.action.UNFREEZE`：解冻目标应用。`key="package"` `value="com.package.name"`
+- `z.gnstc.uwv.action.UNFREEZE`：解冻目标应用。`key="package"` `value="com.package.name"`
 
-- `com.aistra.hail.action.FREEZE_TAG`：冻结目标标签中的全部非白名单应用。`key="tag"` `value="标签名"`
+- `z.gnstc.uwv.action.FREEZE_TAG`：冻结目标标签中的全部非白名单应用。`key="tag"` `value="标签名"`
 
-- `com.aistra.hail.action.UNFREEZE_TAG`：解冻目标标签中的全部应用。`key="tag"` `value="标签名"`
+- `z.gnstc.uwv.action.UNFREEZE_TAG`：解冻目标标签中的全部应用。`key="tag"` `value="标签名"`
 
-- `com.aistra.hail.action.FREEZE_ALL`：冻结首页全部应用。无需`extra`。
+- `z.gnstc.uwv.action.FREEZE_ALL`：冻结首页全部应用。无需`extra`。
 
-- `com.aistra.hail.action.UNFREEZE_ALL`：解冻首页全部应用。无需`extra`。
+- `z.gnstc.uwv.action.UNFREEZE_ALL`：解冻首页全部应用。无需`extra`。
 
-- `com.aistra.hail.action.FREEZE_NON_WHITELISTED`：冻结首页全部非白名单应用。无需`extra`。
+- `z.gnstc.uwv.action.FREEZE_NON_WHITELISTED`：冻结首页全部非白名单应用。无需`extra`。
 
-- `com.aistra.hail.action.FREEZE_AUTO`：自动冻结首页应用。无需`extra`。
+- `z.gnstc.uwv.action.FREEZE_AUTO`：自动冻结首页应用。无需`extra`。
 
-- `com.aistra.hail.action.LOCK`：锁定屏幕。无需`extra`。
+- `z.gnstc.uwv.action.LOCK`：锁定屏幕。无需`extra`。
 
-- `com.aistra.hail.action.LOCK_FREEZE`：冻结首页全部应用并锁定屏幕。无需`extra`。
+- `z.gnstc.uwv.action.LOCK_FREEZE`：冻结首页全部应用并锁定屏幕。无需`extra`。
 
 或使用以下`schema`:
 

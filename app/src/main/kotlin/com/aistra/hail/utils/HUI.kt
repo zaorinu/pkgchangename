@@ -1,4 +1,4 @@
-package com.aistra.hail.utils
+package z.gnstc.uwv.utils
 
 import android.content.ClipData
 import android.content.ClipboardManager
@@ -7,8 +7,8 @@ import android.net.Uri
 import android.widget.Toast
 import androidx.core.content.getSystemService
 import androidx.core.view.WindowInsetsCompat
-import com.aistra.hail.HailApp.Companion.app
-import com.aistra.hail.R
+import z.gnstc.uwv.HailApp.Companion.app
+import z.gnstc.uwv.R
 
 object HUI {
     /**

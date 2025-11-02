@@ -1,8 +1,8 @@
-package com.aistra.hail.app
+package z.gnstc.uwv.app
 
 import android.content.Intent
-import com.aistra.hail.BuildConfig
-import com.aistra.hail.utils.*
+import z.gnstc.uwv.BuildConfig
+import z.gnstc.uwv.utils.*
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 

@@ -1,8 +1,8 @@
-package com.aistra.hail.utils
+package z.gnstc.uwv.utils
 
 import android.content.pm.ApplicationInfo
-import com.aistra.hail.HailApp.Companion.app
-import com.aistra.hail.app.AppInfo
+import z.gnstc.uwv.HailApp.Companion.app
+import z.gnstc.uwv.app.AppInfo
 import java.text.Collator
 
 object NameComparator : Comparator<Any> {

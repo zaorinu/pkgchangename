@@ -1,10 +1,10 @@
-package com.aistra.hail.app
+package z.gnstc.uwv.app
 
 import androidx.preference.PreferenceManager
-import com.aistra.hail.BuildConfig
-import com.aistra.hail.HailApp.Companion.app
-import com.aistra.hail.R
-import com.aistra.hail.utils.HFiles
+import z.gnstc.uwv.BuildConfig
+import z.gnstc.uwv.HailApp.Companion.app
+import z.gnstc.uwv.R
+import z.gnstc.uwv.utils.HFiles
 import org.json.JSONArray
 import org.json.JSONObject
 

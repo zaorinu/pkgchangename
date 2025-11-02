@@ -1,14 +1,14 @@
-package com.aistra.hail.work
+package z.gnstc.uwv.work
 
 import android.content.Context
 import androidx.work.Worker
 import androidx.work.WorkerParameters
-import com.aistra.hail.HailApp.Companion.app
-import com.aistra.hail.app.AppInfo
-import com.aistra.hail.app.AppManager
-import com.aistra.hail.app.HailData
-import com.aistra.hail.services.AutoFreezeService
-import com.aistra.hail.utils.HSystem
+import z.gnstc.uwv.HailApp.Companion.app
+import z.gnstc.uwv.app.AppInfo
+import z.gnstc.uwv.app.AppManager
+import z.gnstc.uwv.app.HailData
+import z.gnstc.uwv.services.AutoFreezeService
+import z.gnstc.uwv.utils.HSystem
 
 class AutoFreezeWorker(context: Context, params: WorkerParameters) : Worker(context, params) {
     override fun doWork(): Result {

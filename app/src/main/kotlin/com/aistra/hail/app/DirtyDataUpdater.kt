@@ -1,4 +1,4 @@
-package com.aistra.hail.app
+package z.gnstc.uwv.app
 
 import android.content.Context
 import androidx.preference.PreferenceManager

@@ -1,18 +1,18 @@
-package com.aistra.hail.ui.home
+package z.gnstc.uwv.ui.home
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.core.view.isVisible
-import com.aistra.hail.app.AppInfo
-import com.aistra.hail.app.HailData.tags
-import com.aistra.hail.databinding.FragmentHomeBinding
-import com.aistra.hail.extensions.applyDefaultInsetter
-import com.aistra.hail.extensions.isLandscape
-import com.aistra.hail.extensions.isRtl
-import com.aistra.hail.extensions.paddingRelative
-import com.aistra.hail.ui.main.MainFragment
+import z.gnstc.uwv.app.AppInfo
+import z.gnstc.uwv.app.HailData.tags
+import z.gnstc.uwv.databinding.FragmentHomeBinding
+import z.gnstc.uwv.extensions.applyDefaultInsetter
+import z.gnstc.uwv.extensions.isLandscape
+import z.gnstc.uwv.extensions.isRtl
+import z.gnstc.uwv.extensions.paddingRelative
+import z.gnstc.uwv.ui.main.MainFragment
 import com.google.android.material.tabs.TabLayoutMediator
 
 class HomeFragment : MainFragment() {

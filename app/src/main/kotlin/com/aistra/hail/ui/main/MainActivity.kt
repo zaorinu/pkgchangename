@@ -1,4 +1,4 @@
-package com.aistra.hail.ui.main
+package z.gnstc.uwv.ui.main
 
 import android.os.Bundle
 import android.view.Menu
@@ -17,12 +17,12 @@ import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
-import com.aistra.hail.R
-import com.aistra.hail.app.HailData
-import com.aistra.hail.databinding.ActivityMainBinding
-import com.aistra.hail.extensions.*
-import com.aistra.hail.utils.HPolicy
-import com.aistra.hail.utils.HUI
+import z.gnstc.uwv.R
+import z.gnstc.uwv.app.HailData
+import z.gnstc.uwv.databinding.ActivityMainBinding
+import z.gnstc.uwv.extensions.*
+import z.gnstc.uwv.utils.HPolicy
+import z.gnstc.uwv.utils.HUI
 import com.google.android.material.appbar.AppBarLayout
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton

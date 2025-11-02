@@ -1,4 +1,4 @@
-package com.aistra.hail.ui.apps
+package z.gnstc.uwv.ui.apps
 
 import android.content.pm.ApplicationInfo
 import android.view.LayoutInflater
@@ -7,11 +7,11 @@ import android.widget.CompoundButton
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
-import com.aistra.hail.app.AppManager
-import com.aistra.hail.app.HailData
-import com.aistra.hail.databinding.ItemAppsBinding
-import com.aistra.hail.utils.AppIconCache
-import com.aistra.hail.utils.HPackages
+import z.gnstc.uwv.app.AppManager
+import z.gnstc.uwv.app.HailData
+import z.gnstc.uwv.databinding.ItemAppsBinding
+import z.gnstc.uwv.utils.AppIconCache
+import z.gnstc.uwv.utils.HPackages
 import com.google.android.material.color.MaterialColors
 import kotlinx.coroutines.Job
 

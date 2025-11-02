@@ -1,4 +1,4 @@
-package com.aistra.hail.services
+package z.gnstc.uwv.services
 
 import android.app.PendingIntent
 import android.content.Intent
@@ -7,10 +7,10 @@ import android.os.Build
 import android.service.quicksettings.Tile
 import android.service.quicksettings.TileService
 import androidx.annotation.RequiresApi
-import com.aistra.hail.R
-import com.aistra.hail.app.HailApi
-import com.aistra.hail.app.HailData
-import com.aistra.hail.utils.HTarget
+import z.gnstc.uwv.R
+import z.gnstc.uwv.app.HailApi
+import z.gnstc.uwv.app.HailData
+import z.gnstc.uwv.utils.HTarget
 
 @RequiresApi(Build.VERSION_CODES.N)
 class QSTileService : TileService() {

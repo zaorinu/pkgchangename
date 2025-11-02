@@ -1,4 +1,4 @@
-package com.aistra.hail.ui.api
+package z.gnstc.uwv.ui.api
 
 import android.content.ActivityNotFoundException
 import android.content.Intent
@@ -24,18 +24,18 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.res.dimensionResource
 import androidx.compose.ui.res.stringResource
-import com.aistra.hail.HailApp.Companion.app
-import com.aistra.hail.R
-import com.aistra.hail.app.AppInfo
-import com.aistra.hail.app.AppManager
-import com.aistra.hail.app.HailApi
-import com.aistra.hail.app.HailData
-import com.aistra.hail.ui.theme.AppTheme
-import com.aistra.hail.utils.HPackages
-import com.aistra.hail.utils.HShortcuts
-import com.aistra.hail.utils.HTarget
-import com.aistra.hail.utils.HUI
-import com.aistra.hail.work.HWork.setAutoFreeze
+import z.gnstc.uwv.HailApp.Companion.app
+import z.gnstc.uwv.R
+import z.gnstc.uwv.app.AppInfo
+import z.gnstc.uwv.app.AppManager
+import z.gnstc.uwv.app.HailApi
+import z.gnstc.uwv.app.HailData
+import z.gnstc.uwv.ui.theme.AppTheme
+import z.gnstc.uwv.utils.HPackages
+import z.gnstc.uwv.utils.HShortcuts
+import z.gnstc.uwv.utils.HTarget
+import z.gnstc.uwv.utils.HUI
+import z.gnstc.uwv.work.HWork.setAutoFreeze
 
 class ApiActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

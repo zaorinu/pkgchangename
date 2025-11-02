@@ -1,4 +1,4 @@
-package com.aistra.hail.ui.apps
+package z.gnstc.uwv.ui.apps
 
 import android.os.Bundle
 import android.provider.Settings
@@ -14,18 +14,18 @@ import androidx.fragment.app.viewModels
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.GridLayoutManager
-import com.aistra.hail.HailApp.Companion.app
-import com.aistra.hail.R
-import com.aistra.hail.app.AppManager
-import com.aistra.hail.app.HailData
-import com.aistra.hail.databinding.FragmentAppsBinding
-import com.aistra.hail.extensions.*
-import com.aistra.hail.ui.main.MainFragment
-import com.aistra.hail.utils.HFiles
-import com.aistra.hail.utils.HPackages
-import com.aistra.hail.utils.HPolicy
-import com.aistra.hail.utils.HUI
-import com.aistra.hail.views.HRecyclerView
+import z.gnstc.uwv.HailApp.Companion.app
+import z.gnstc.uwv.R
+import z.gnstc.uwv.app.AppManager
+import z.gnstc.uwv.app.HailData
+import z.gnstc.uwv.databinding.FragmentAppsBinding
+import z.gnstc.uwv.extensions.*
+import z.gnstc.uwv.ui.main.MainFragment
+import z.gnstc.uwv.utils.HFiles
+import z.gnstc.uwv.utils.HPackages
+import z.gnstc.uwv.utils.HPolicy
+import z.gnstc.uwv.utils.HUI
+import z.gnstc.uwv.views.HRecyclerView
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
